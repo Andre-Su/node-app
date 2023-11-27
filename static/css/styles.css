@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* Reset de estilos básicos */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos para o cabeçalho */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /* Estilos para o corpo principal */
+  main {
+    padding: 20px;
+  }
+  
+  /* Estilos de Itens */
+
+  #posttitle{
+    margin-left: 10px;
+  }
+
+  .articlebox{
+    padding: 15px 15px;
+  }
+  .contbox{
+    display: inline-flex;
+  }
+  .contbox hr{
+    border-style: dashed;
+  }
+  .textbox p{
+    text-align: justify;
+    width: 60%;
+    min-width: 300px;
+  }
+  .imgbox{
+    min-width: 30%;
+  }
+  .imgbox img{
+    width: auto;
+    border-radius: 8px;
+  }
+  
+  #form{
+    padding: 20px;
+  }
+
+  /* Estilos para o rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+  }

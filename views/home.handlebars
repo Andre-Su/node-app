@@ -1,0 +1,20 @@
+<h1 id="posttitle">Lista de Posts</h1>
+<section id="postagens">
+    <div>
+        {{#each posts}}
+            <article class="articlebox">
+                <div class="contbox">
+                    <div class="textbox">
+                        <h2>{{dataValues.id}}. {{titulo}}</h2>
+                        <small>{{#formatDate createdAt}}{{/formatDate}}</small>
+                        <p>{{conteudo}}</p>
+                    </div>
+                    <div class="imgbox">
+                        <img src="{{image}}" alt="">
+                    </div>
+                </div>
+                <hr>
+            </article>
+        {{/each}}
+    </div>
+</section>
